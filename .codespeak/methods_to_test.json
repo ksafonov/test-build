@@ -1,0 +1,11 @@
+{
+    "src/test_build/main.py": [
+        {
+            "method": {
+                "enclosing_classes": [],
+                "method_name": "main"
+            },
+            "kind": "unit_tests"
+        }
+    ]
+}
