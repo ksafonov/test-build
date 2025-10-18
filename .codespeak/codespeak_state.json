@@ -61,7 +61,9 @@
             "web_application": false
         },
         "external_apis": "external_apis.json",
-        "commit_message": "Add console app that prints Hello"
+        "commit_message": "Add console app that prints Hello",
+        "methods_to_test_raw": "methods_to_test_raw.json",
+        "methods_to_test": "methods_to_test.json"
     },
     "phase_manager": {
         "history": [
@@ -96,6 +98,10 @@
             {
                 "checkpoint": "{\"run\":{\"id\":\"67d12c33-e7a8-49d2-8c81-766c225649c0\",\"kind\":\"build\"},\"phase_id\":\"FeedbackLoopWithClaudeCode\",\"additional_id\":null}",
                 "timestamp": "2025-10-18T08:58:37.491571+00:00"
+            },
+            {
+                "checkpoint": "{\"run\":{\"id\":\"67d12c33-e7a8-49d2-8c81-766c225649c0\",\"kind\":\"build\"},\"phase_id\":\"AnalyzeAndPlanTests\",\"additional_id\":null}",
+                "timestamp": "2025-10-18T08:58:47.088253+00:00"
             }
         ]
     }
