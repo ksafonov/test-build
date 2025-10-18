@@ -1,0 +1,1 @@
+"""A simple console application that prints Hello."""
